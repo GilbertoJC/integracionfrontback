@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 // Configuración de CORS para permitir el frontend en Netlify
 app.use(cors({
-  origin: 'https://proyecto-login-alexanderra314.netlify.app', // Asegúrate de que esta URL sea la correcta
+  origin: 'https://darling-figolla-d5a481.netlify.app', // Asegúrate de que esta URL sea la correcta
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'], // Asegura que estos encabezados estén permitidos
   credentials: true, // Permite el envío de cookies si es necesario
